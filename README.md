@@ -1,4 +1,4 @@
-JS_matchMedia
+js_matchmedia
 =============
 
 Load stylesheet based on matchMedia
