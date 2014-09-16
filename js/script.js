@@ -23,10 +23,10 @@ function onWindowLoad() {
 
 function loadCSS() {
     if ( window.matchMedia("(min-width: 500px)").matches ) {
-        var stylesheet = css.value = "desktop.css";
+        var stylesheet = css.value = "css/desktop.css";
         response.innerHTML = '<mark>DESKTOP</mark>';
     } else {
-        var stylesheet = css.value = "mobile.css";
+        var stylesheet = css.value = "css/mobile.css";
         response.innerHTML = '<mark>MOBILE</mark>';
     } 
 }
